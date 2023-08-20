@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import {SectionTitle}  from "../sectionTitle/sectionTitle"
 import "./experience.scss"
 
@@ -5,7 +6,11 @@ const Experience = () => {
   return (
       <div className="experience">
         <SectionTitle text= 'Experience' />
-        <p>texto</p>
+        {/* <p>Desde o ensino médio, minha paixão por programação e tecnologias tem crescido. No entanto, minha verdadeira imersão nesse campo aconteceu durante minha entrada na faculdade de Ciências da Computação em 2022. Atualmente, estou totalmente dedicado ao meu curso e minha motivação para aprender cresce a cada dia. Minha busca diária por conhecimento, o aprimoramento das minhas habilidades interpessoais e minha participação em projetos específicos têm sido constantes. Esses projetos refletem meu alinhamento com as tecnologias demandadas pelo mercado e contribuem tanto para o meu crescimento profissional quanto pessoal. Meu objetivo é me tornar um programador "Full Stack" altamente qualificado para enfrentar as demandas do mercado de trabalho.
+
+Estou ansioso para discutir como poderíamos colaborar. Abaixo, você encontrará detalhes sobre minhas habilidades específicas e alguns projetos que realizei.</p> */}
+
+<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat alias, veritatis eveniet ab qui, molestias similique id dolorem quidem, sed repudiandae quam obcaecati ipsa. Excepturi quaerat quae adipisci. Est.</p>
         <div className="experience-time">
         </div>
         </div>
