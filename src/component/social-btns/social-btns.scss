@@ -5,13 +5,31 @@
   margin-bottom: 24px;
 
     a {
-
       border-radius: 100%;
       cursor: pointer;
 
       display: flex;
       align-items: center;
       justify-content: center;
+      transition: transform 0.5s ease;
+    }
+
+    a.hover {
+      transform: translateX(100px);
+    }
+
+    @media (min-width: 768px){
+
+a {
+      border-radius: 100%;
+      cursor: pointer;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    
     }
 }
 

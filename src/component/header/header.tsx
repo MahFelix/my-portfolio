@@ -2,6 +2,7 @@
 import Image from 'next/image'
 
 import "./header.scss"
+import Aboutme from '../AboutMe/aboutme'
 
 const header = () => {
   return (
@@ -9,7 +10,11 @@ const header = () => {
             <div>
               <h1> Hi, I'm Agnaldo!👋</h1>
               <h2> Software Engineer</h2>
+              <div>
+              <Aboutme />
             </div>
+            </div>
+
 
              <Image
               src="/me2.jpg"

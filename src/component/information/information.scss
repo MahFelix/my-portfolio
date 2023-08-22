@@ -6,8 +6,21 @@
   gap: 20px;
   grid-area: infos;
   align-items: flex-start;
-  margin-bottom: 110px;
+  margin-top: 30px;
 
+.graduating {
+      width: 220px;
+      margin-bottom: 20px;
+    }
+
+
+.educational-info {
+  display: flex;
+}
+
+img {
+  margin-right: 12px;
+}
 
   .languages-info {
     display: flex;
@@ -17,11 +30,23 @@
     width: 100%;
     padding-left: 10px;
 
+
+
   }
 
   span {
     color: var(--text-secundary);
     display: flex;
 
+  }
+
+  @media (min-width: 768px){
+    .graduating {
+      width: 220px;
+    }
+
+    img {
+  margin-right: 12px;
+}
   }
 }

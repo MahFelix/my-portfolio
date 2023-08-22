@@ -28,8 +28,8 @@ export function Info(){
 
           <SectionTitle  text="Education"/>
           <div className="educational-info">
-          <span>🎓</span>
-          <span>
+          <span className="graduicon">🎓</span>
+          <span className="graduating">
             Graduating Computer Science - Universidade Federal de Sergipe
          </span>
           </div>

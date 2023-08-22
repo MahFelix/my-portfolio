@@ -1,22 +1,25 @@
 .Container {
-  padding: 40px 32px;
+  padding: 20px 15px;
   display: grid;
+
   justify-items: center;
-  gap: 24px;
-  grid-template-rows: repeat(4, auto);
+  gap: 12px;
+  grid-template-rows: repeat(5, auto);
   grid-template-areas:
     "header"
-    "btns"
     "experience"
-    "infos";
+    "btns"
+    "infos"
+    "experience-time";
 
 
     .btn-primary {
       border-radius: 24px;
-      background: linear-gradient(90deg, #777CF4 0%, #F47777 100%);
+      background: linear-gradient(90deg, rgba(255,137,6,1) 15%, rgba(242,95,76,1) 52%, rgba(229,49,112,1) 94%);
       width: 325px;
       padding: 12px;
       text-align: center;
+      cursor: pointer;
 
       color: var(--text-primary);
       font-weight: 500;
@@ -39,6 +42,8 @@
         flex-direction: column;
         gap:24px;
         grid-area: btns;
+        text-decoration: none;
+
       }
 
     }
@@ -49,14 +54,21 @@
   .Container {
     padding: 50px 20px;
     height: 100vh;
+    margin-left: 120px;
     grid-template-rows: fit-content(100%);
-    grid-template-columns: 60% 30%;
+    grid-template-columns: 60% 27%;
     align-items: center;
     justify-items: start;
     justify-content: space-between;
     grid-template-areas:
       "header infos"
-      "experience empty-1"
+      "experience experience-time"
       "empty-2 btns";
+
+
   }
+
+
 }
+
+

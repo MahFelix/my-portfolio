@@ -8,18 +8,18 @@ import "./social-btns.scss"
 
 export function SocialBtns(){
     return(
-       <div className="social">
-          <a href="">
-            <InstIcon />
+       <div className="social" >
+          <a href="" target="_blank">
+            <span><InstIcon /></span>
              </a>
-          <a href="">
-            <LinkIcon />
+          <a href="https://www.linkedin.com/in/agnaldofelix/" target="_blank">
+            <span><LinkIcon /></span>
              </a>
-          <a href="">
-            <WhatsIcon />
+          <a href="https://wa.me/5579996848609" target="_blank">
+            <span><WhatsIcon /></span>
              </a>
-          <a href="">
-            <GitIcon />
+          <a href="https://github.com/MahFelix" target="_blank">
+            <span><GitIcon /></span>
           </a>
       </div>
     )
