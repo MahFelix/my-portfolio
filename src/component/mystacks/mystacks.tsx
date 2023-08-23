@@ -2,6 +2,7 @@ import Image from "next/image"
 import { SectionTitle } from "../sectionTitle/sectionTitle"
 import "./mystacks.scss"
 
+
 const mystacks = () => {
   return (
    <div className="experience-time">

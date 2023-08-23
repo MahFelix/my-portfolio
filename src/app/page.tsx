@@ -7,6 +7,8 @@ import "../component/mystacks/mystacks.scss"
 import '../styles/home.scss'
 import { SocialBtns } from '@/component/social-btns/social-btns'
 
+
+
 export default function Home() {
 
 
