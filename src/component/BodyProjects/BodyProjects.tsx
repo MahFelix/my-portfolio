@@ -35,7 +35,7 @@ export default function Projects(){
                             Tecnologias utilizadas: Figma, Vite React, JavaScript, Tailwind
 
                             </p>
-                            <a href="https://chronicle-ddndcvz9w-mahfelix.vercel.app/" target="_blank"> Ver Projeto </a>
+                            <a href="https://chronicle-mu.vercel.app/" target="_blank"> Ver Projeto </a>
                         </div>
 
                         <div className="card" id='adjustable-div'>
@@ -51,7 +51,7 @@ export default function Projects(){
 
 
                             </p>
-                            <a href="https://projetostarbackspg.netlify.app/" target="_blank"> Ver Projeto </a>
+                            <a href="https://64e7ea36a9915506e6a43f3b--incandescent-gumdrop-8ca920.netlify.app/" target="_blank"> Ver Projeto </a>
                         </div>
 
                         <div className="card" id='adjustable-div'>
@@ -67,7 +67,7 @@ export default function Projects(){
 
 
                             </p>
-                            <a href="https://radiant-lily-703489.netlify.app/" target="_blank"> Ver Projeto </a>
+                            <a href="https://candid-sawine-b169c3.netlify.app/" target="_blank"> Ver Projeto </a>
                         </div>
         </section>
     )
