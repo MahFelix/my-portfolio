@@ -4,13 +4,15 @@
 
   justify-items: center;
   gap: 12px;
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(6, auto);
   grid-template-areas:
     "header"
     "experience"
     "btns"
     "infos"
     "experience-time";
+
+
 
 
     .btn-primary {
@@ -52,7 +54,7 @@
 @media (min-width: 768px){
 
   .Container {
-    padding: 50px 20px;
+    padding: 3vh 3vh;
     height: 100vh;
     margin-left: 120px;
     grid-template-rows: fit-content(100%);
@@ -63,11 +65,12 @@
     grid-template-areas:
       "header infos"
       "experience experience-time"
-      "empty-2 btns";
-
-
+      "empty-2 btns"
   }
 
+  .btn-primary{
+    margin-bottom: 10px;
+  }
 
 }
 

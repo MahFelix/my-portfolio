@@ -3,9 +3,10 @@ import Experience from '../component/experience/experience'
 import { Info } from '@/component/information/information'
 import { EmailIcon } from '@/component/icons/email-icon'
 import Mystacks from '../component/mystacks/mystacks'
+import { SocialBtns } from '@/component/social-btns/social-btns'
+import BodyProjects from '../component/BodyProjects/BodyProjects'
 import "../component/mystacks/mystacks.scss"
 import '../styles/home.scss'
-import { SocialBtns } from '@/component/social-btns/social-btns'
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Experience />
       <Mystacks />
       <Info />
+
 
 
         <div className="btns">
@@ -33,6 +35,7 @@ export default function Home() {
             <EmailIcon />
             </button>
         </div>
+
     </main>
   )
 }

@@ -4,6 +4,7 @@ import "./experience.scss"
 import BX from '../../../public/baixar.png'
 import Image from "next/image"
 import DBD from '../../../public/dbd.png'
+import Aboutme from "../AboutMe/aboutme"
 
 
 
@@ -15,16 +16,22 @@ const Experience = () => {
 
 Estou ansioso para discutir como poderíamos colaborar. Abaixo, você encontrará detalhes sobre minhas habilidades específicas e alguns projetos que realizei.</p> */}
 
-<p>Possuo 2 anos de experiência como desenvolvedor full stack, com enfoque especializado em front-end. Minha jornada inclui projetos pontuais que refletem meu comprometimento em utilizar tecnologias alinhadas ao mercado de trabalho.</p>
+<p>Tenho um ano de experiência como desenvolvedor full stack, com foco especializado em front-end. Meus projetos demonstram meu compromisso em utilizar tecnologias alinhadas ao mercado.</p>
 
+<div className="btn-person">
   <div>
-    <a href="/CV_Desenvolvedor_Front_End_Agnaldo_Felix.pdf" download > Curriculo
+    <Aboutme />
+  </div>
+  <div>
+    <a className="curriculo-pdf" href="/CV_Desenvolvedor_Front_End_Agnaldo_Felix.pdf" download > Curriculo
       <Image src={DBD} alt="Minha Imagem"
              width={25}
               height={25}
                />
 
     </a>
+</div>
+
   </div>
 
         </div>

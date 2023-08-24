@@ -1,10 +1,13 @@
 import Image from "next/image"
 import { SectionTitle } from "../sectionTitle/sectionTitle"
+import BodyProjects from '../BodyProjects/BodyProjects'
 import "./mystacks.scss"
+import "../BodyProjects/BodyProjects.scss"
 
 
 const mystacks = () => {
   return (
+    <div>
    <div className="experience-time">
         <SectionTitle text= 'My stacks' />
           <div className="experience-stacks">
@@ -17,7 +20,7 @@ const mystacks = () => {
             />
             <div className="experience-unit">
               <div className="experience-measure measure-3">
-                <span> 2 years </span>
+                <span> 1 Year </span>
               </div>
             </div>
           </div>
@@ -31,7 +34,7 @@ const mystacks = () => {
             />
              <div className="experience-unit">
               <div className="experience-measure measure-3">
-                <span> 2 years </span>
+                <span> 1 Year </span>
               </div>
             </div>
           </div>
@@ -45,7 +48,7 @@ const mystacks = () => {
             />
              <div className="experience-unit">
               <div className="experience-measure measure-2">
-                <span> 1 years </span>
+                <span> 7 months </span>
               </div>
             </div>
           </div>
@@ -59,7 +62,7 @@ const mystacks = () => {
             />
              <div className="experience-unit">
               <div className="experience-measure measure-3">
-                <span> 2 years </span>
+                <span> 1 Year </span>
               </div>
             </div>
           </div>
@@ -73,7 +76,7 @@ const mystacks = () => {
             />
              <div className="experience-unit">
               <div className="experience-measure measure-3">
-                <span> 2 years </span>
+                <span> 1 Year </span>
               </div>
             </div>
           </div>
@@ -87,7 +90,7 @@ const mystacks = () => {
             />
              <div className="experience-unit">
               <div className="experience-measure measure-1">
-                <span> 7 months </span>
+                <span> 3 months </span>
               </div>
             </div>
           </div>
@@ -101,12 +104,14 @@ const mystacks = () => {
             />
              <div className="experience-unit">
               <div className="experience-measure measure-2">
-                <span> 1 years </span>
+                <span> 7 months </span>
               </div>
             </div>
           </div>
           <div/>
         </div>
+           <BodyProjects />
+   </div>
   )
 }
 

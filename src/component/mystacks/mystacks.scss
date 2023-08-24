@@ -4,7 +4,7 @@
       filter: grayscale(100%);
     }
 
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
     .experience-unit {
@@ -22,9 +22,9 @@
         border-radius: 24px;
         border: 1px linear-gradient(90deg, rgba(255,137,6,1) 15%, rgba(242,95,76,1) 52%, rgba(229,49,112,1) 94%);
         height: 30px;
-       background: rgb(2,0,36);
-background: rgb(255,137,6);
-background: linear-gradient(90deg, rgba(255,137,6,1) 15%, rgba(242,95,76,1) 52%, rgba(229,49,112,1) 94%);
+        background: rgb(2,0,36);
+        background: rgb(255,137,6);
+        background: linear-gradient(90deg, rgba(255,137,6,1) 15%, rgba(242,95,76,1) 52%, rgba(229,49,112,1) 94%);
         z-index: 999;
 
 
@@ -32,7 +32,7 @@ background: linear-gradient(90deg, rgba(255,137,6,1) 15%, rgba(242,95,76,1) 52%,
         color: var(--text-primary);
         font-weight: 300;
         text-align: center;
-$duration: 2s;
+        $duration: 2s;
 
         &.measure-1{
            width: 0%;

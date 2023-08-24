@@ -2,7 +2,7 @@ import "./aboutme.scss"
 const Aboutme = () => {
   return (
     <div>
-      <button>
+      <button className="btn-aboutme">
         About Me </button>
     </div>
   )
