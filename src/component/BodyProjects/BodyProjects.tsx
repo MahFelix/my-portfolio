@@ -5,6 +5,8 @@ import RP from "../../../public/ProjectImages/React-Proje.png"
 import CCC from "../../../public/ProjectImages/Ethan Nova.png"
 import STR from "../../../public/ProjectImages/starbucks.png"
 import CTRL from"../../../public/ProjectImages/controller.png"
+import CON from"../../../public/ProjectImages/conversor.png"
+
 
 
 export default function Projects(){
@@ -68,6 +70,22 @@ export default function Projects(){
 
                             </p>
                             <a href="https://candid-sawine-b169c3.netlify.app/" target="_blank"> Ver Projeto </a>
+                        </div>
+
+                         <div className="card" id='adjustable-div'>
+                        <Image src={CON} alt="Minha Imagem"
+                        width={70}
+
+               />
+
+                            <h5>Conversor de Moedas</h5>
+                            <p> Projeto de um conversor de Moedas.<br></br>
+                            Tecnologias utilziadas: JavaScript, Html e Css, com responsividade para Mobile.
+
+
+
+                            </p>
+                            <a href="https://conversor-moedas-eight.vercel.app/" target="_blank"> Ver Projeto </a>
                         </div>
         </section>
     )
