@@ -110,7 +110,6 @@ const mystacks = () => {
           </div>
           <div/>
         </div>
-           <BodyProjects />
    </div>
   )
 }

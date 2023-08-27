@@ -25,9 +25,9 @@ const Aboutme = () => {
                <br></br>
             Meu objetivo é me tornar um programador "Full Stack" altamente qualificado para enfrentar as demandas do mercado de trabalho.
               <br></br> <br></br>
-          Estou ansioso para discutir como poderíamos colaborar. Abaixo, você encontrará detalhes sobre minhas habilidades específicas e alguns projetos que realizei.</h2>
+          Estou ansioso para discutir como poderíamos colaborar. <br></br> <br></br>Abaixo, você encontrará detalhes sobre minhas habilidades específicas e alguns projetos que realizei.</h2>
 
-        
+
 
             <button className="popup-close" onClick={handleClick}>
               Fechar

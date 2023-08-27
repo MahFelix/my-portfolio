@@ -11,8 +11,12 @@ import CON from"../../../public/ProjectImages/conversor.png"
 
 export default function Projects(){
     return(
-        <section>
+        <section className="Projects">
+            <div className="title-Projects">
           <SectionTitle text= 'Main Projects' />
+          </div>
+
+          <div className="Adjust-Cards">
           <div className="card" id='adjustable-div'>
              <Image src={RP} alt="Minha Imagem"
              width={70}
@@ -86,6 +90,8 @@ export default function Projects(){
                             </p>
                             <a href="https://conversor-moedas-eight.vercel.app/" target="_blank"> Ver Projeto </a>
                         </div>
+
+              </div>
         </section>
     )
 }

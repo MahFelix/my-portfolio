@@ -9,7 +9,6 @@ import "../component/mystacks/mystacks.scss"
 import '../styles/home.scss'
 
 
-
 export default function Home() {
 
 
@@ -20,8 +19,6 @@ export default function Home() {
       <Mystacks />
       <Info />
 
-
-
         <div className="btns">
           <div className="social">
               <SocialBtns />
@@ -31,11 +28,15 @@ export default function Home() {
           className='btn-primary'
           >
             Contact me!
-
             <EmailIcon />
-            </button>
+          </button>
+          <BodyProjects />
         </div>
 
+
+
     </main>
+
+
   )
 }
