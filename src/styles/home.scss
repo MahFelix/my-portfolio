@@ -1,5 +1,5 @@
 .Container {
-  padding: 10px 15px 10px 5px;
+  padding: 20px 15px;
   display: grid;
 
   justify-items: center;
@@ -25,6 +25,7 @@
       padding: 12px;
       text-align: center;
       cursor: pointer;
+      margin-left: 5vh;
 
       color: var(--text-primary);
       font-weight: 500;
@@ -37,11 +38,12 @@
       align-items: center;
       gap: 20px;
       justify-content: center;
-      margin-left: 2vh;
 
 
 
-      .buttons {
+
+
+      .btns {
         display: flex;
         align-items: center;
         justify-content: center;
