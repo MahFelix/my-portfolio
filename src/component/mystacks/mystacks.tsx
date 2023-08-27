@@ -26,7 +26,7 @@ const mystacks = () => {
           </div>
            <div className="experience-stacks">
              <Image
-              src="/javscrp.svg"
+              src="/javascript2.png"
               alt="Javascript Logo"
               width={35}
               height={35}
@@ -54,15 +54,15 @@ const mystacks = () => {
           </div>
            <div className="experience-stacks">
              <Image
-              src="/css.svg"
-              alt="Css Logo"
+              src="/nextjs.png"
+              alt="Next Logo"
               width={35}
               height={35}
               priority
             />
              <div className="experience-unit">
-              <div className="experience-measure measure-3">
-                <span> 1 Year </span>
+              <div className="experience-measure measure-1">
+                <span> 3 Months </span>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ const mystacks = () => {
           </div>
            <div className="experience-stacks">
              <Image
-              src="typescript.svg"
+              src="/typescript4.png"
               alt="Typescript Logo"
               width={35}
               height={35}
@@ -96,7 +96,7 @@ const mystacks = () => {
           </div>
            <div className="experience-stacks">
              <Image
-              src="/sass.svg"
+              src="/sass.png"
               alt="Sass Logo"
               width={35}
               height={35}

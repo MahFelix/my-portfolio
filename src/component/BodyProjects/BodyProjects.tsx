@@ -16,7 +16,6 @@ export default function Projects(){
           <div className="card" id='adjustable-div'>
              <Image src={RP} alt="Minha Imagem"
              width={70}
-
                />
 
                             <h5>React Project FullStack</h5>

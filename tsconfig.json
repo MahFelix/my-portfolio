@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/component/experience", "src/component/ExperienceMeasure/ExperienceMeasure.jsx", "src/component/mystacks/mystacks.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/component/experience", "src/component/ExperienceMeasure/ExperienceMeasure.jsx", "src/component/mystacks/mystacks.tsx", "src/component/Popup/Popup.js"],
   "exclude": ["node_modules"]
 }

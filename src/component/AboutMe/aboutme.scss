@@ -16,8 +16,74 @@
       text-decoration: none;
       border: none;
       height: 55px;
+  }
+
+
+  .popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+
+  h1 {
+    color: rgb(0, 0, 0);
+  }
+
+  h2 {
+    width: 100%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
 
   }
+
+  h3 {
+    display: none;
+  }
+
+}
+
+.popup-content {
+  width: 90%;
+  max-width: 800px;
+  height: 700px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  overflow-x: auto;
+}
+
+.popup-close {
+  margin-top: 10px;
+    border-radius: 24px;
+      background: linear-gradient(90deg, rgba(255,137,6,1) 15%, rgba(242,95,76,1) 52%, rgba(229,49,112,1) 94%);
+      width: 150px;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-top: 2vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      text-decoration: none;
+      border: none;
+      height: 55px;
+
+
+}
+
+
 
     @media (min-width: 768px) {
       p{
@@ -26,6 +92,7 @@
         line-height: 36px;
         text-align: start;
         width: 50rem;
+
       }
 
       .btn-aboutme {
@@ -49,5 +116,39 @@
 
   }
 
+  .popup{
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
 
-    }
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+
+  h2 {
+    width: 100%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+  }
+
+  h3 {
+    display: none;
+  }
+  }
+
+  .popup-content {
+  width: 70%;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  padding: 40px;
+  border-radius: 5px;
+  overflow-x: auto;
+
+
+}
+
+
+
+ }
+
