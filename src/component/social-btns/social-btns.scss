@@ -7,22 +7,29 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
-  
+
+
 
 
     a {
-      border-radius: 100%;
+      border-radius: 70%;
       cursor: pointer;
-
+      width: 50px;
       display: flex;
       align-items: center;
       justify-content: center;
       transition: transform 0.5s ease;
+      padding: 1px;
+       &:hover {
+      transform: translateY(15px);
+
+       background: linear-gradient(90deg, rgba(255,137,6,1) 15%, rgba(242,95,76,1) 52%, rgba(229,49,112,1) 94%);
+
     }
 
-    a.hover {
-      transform: translateX(100px);
     }
+
+
 
     @media (min-width: 768px){
 

@@ -24,7 +24,8 @@ export default function Projects(){
 
                             <h5>React Project FullStack</h5>
                             <p> O projeto consiste em Cadastrar Usuarios, utilizando seu Nome e Idade.
-                                Utilizei o React e suas ferramentas Hooks, como o useState, useRef e useEffect; para gerar um estado e armazenar os usuários cadastrados.
+                                Utilizei o React e suas ferramentas Hooks, como o useState, useRef e useEffect; para gerar um estado e armazenar os usuários cadastrados. Com
+                                Responsividade para Mobile.
                             </p>
                             <a href="https://first-react-project-8szo.vercel.app" target="_blank"> Ver Projeto </a>
                         </div>
@@ -36,8 +37,9 @@ export default function Projects(){
                />
 
                             <h5>Character Chronicle Caelum </h5>
-                            <p> O projeto trata-se da história de um universo fictício com personagens super dotados que residem no planeta de Caelum.<br></br>
-                            Tecnologias utilizadas: Figma, Vite React, JavaScript, Tailwind
+                            <p> O projeto trata-se da história de um universo fictício com personagens super dotados que residem no planeta de Caelum. <br></br>
+                            Tecnologias utilizadas: Figma, Vite React, JavaScript, Tailwind. Com
+                                Responsividade para Mobile.
 
                             </p>
                             <a href="https://chronicle-mu.vercel.app/" target="_blank"> Ver Projeto </a>
