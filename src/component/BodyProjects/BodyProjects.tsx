@@ -1,11 +1,13 @@
 import "./BodyProjects.scss"
 import { SectionTitle } from "../sectionTitle/sectionTitle"
+import BodyProjects2 from "./BodyProjects2"
 import Image from "next/image"
 import RP from "../../../public/ProjectImages/React-Proje.png"
 import CCC from "../../../public/ProjectImages/Ethan Nova.png"
 import STR from "../../../public/ProjectImages/starbucks.png"
 import CTRL from"../../../public/ProjectImages/controller.png"
 import CON from"../../../public/ProjectImages/conversor.png"
+
 
 
 
@@ -94,6 +96,9 @@ export default function Projects(){
                         </div>
 
               </div>
+
+                    <BodyProjects2 />
+
         </section>
     )
 }

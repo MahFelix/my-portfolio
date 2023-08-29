@@ -1,62 +1,76 @@
-/* Definindo variáveis */
-:root {
-  --text-primary: #ffffff;
-  --btn-primary-hover-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Estilos para o container principal */
 .Container {
-  padding: 20px 15px;
+  padding: 20px 5px;
   display: grid;
+
   justify-items: center;
   gap: 12px;
-  grid-template-rows: repeat(6, auto);
+  grid-template-rows: repeat(7, auto);
   grid-template-areas:
     "header"
     "experience"
     "btns"
     "Projects"
     "infos"
-    "experience-time";
-}
+    "experience-time"
+    ;
 
-/* Estilos para botão primário */
-.btn-primary {
-  border-radius: 24px;
-  background: linear-gradient(90deg, rgba(255,137,6,1) 15%, rgba(242,95,76,1) 52%, rgba(229,49,112,1) 94%);
-  width: 325px;
-  padding: 12px;
-  text-align: center;
-  cursor: pointer;
 
-  color: var(--text-primary);
-  font-weight: 500;
-  line-height: 30px;
-  font-size: 20px;
-  text-transform: uppercase;
-  border: none;
-  display: flex;
-  align-items: center;
+    .email {
+        width: 93%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
-  justify-content: center;
 
-  &:hover {
+    .btn-primary {
+      border-radius: 24px;
+      background: linear-gradient(90deg, rgba(255,137,6,1) 15%, rgba(242,95,76,1) 52%, rgba(229,49,112,1) 94%);
+      width: 325px;
+      padding: 12px;
+      text-align: center;
+      cursor: pointer;
+      margin-left: 5vh;
+
+      color: var(--text-primary);
+      font-weight: 500;
+      line-height: 30px;
+      font-size: 20px;
+      text-transform: uppercase;
+      border: none;
+
+
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+
+       &:hover {
     opacity: 0.7;
   }
+
+
+
+
+
+
+      .btns {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:24px;
+        grid-area: btns;
+        text-decoration: none;
+
+      }
+
+    }
 }
 
-/* Estilos para a seção de botões */
-.btns {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-direction: column;
-  gap: 24px;
-  text-decoration: none;
-}
+@media (min-width: 768px){
 
-/* Estilos para a versão de tela grande */
-@media (min-width: 768px) {
   .Container {
     padding: 3vh 3vh;
     height: 100vh;
@@ -69,10 +83,25 @@
     grid-template-areas:
       "header infos"
       "experience experience-time"
-      "empty-2 btns";
+      "empty-3 empty-4"
+      "btns Projects";
+
+
+
+      .email {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
   }
 
-  .btn-primary {
+  .btn-primary{
     margin-bottom: 10px;
   }
+
+
 }
+
+
