@@ -33,7 +33,7 @@ export default function Home() {
                <button
           className='btn-primary'
            >
-            Contact me!
+            CONTATO
             <EmailIcon />
           </button>
 
@@ -41,6 +41,7 @@ export default function Home() {
 
 
         <div>
+        
           <BodyProjects />
           <div>
           <Footer />

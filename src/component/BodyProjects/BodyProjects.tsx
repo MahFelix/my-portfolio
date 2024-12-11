@@ -15,7 +15,7 @@ export default function Projects(){
     return(
         <section className="Projects">
             <div className="title-Projects">
-          <SectionTitle text= 'Main Projects' />
+          <SectionTitle text= 'Projetos Principais' />
           </div>
 
           <div className="Adjust-Cards">

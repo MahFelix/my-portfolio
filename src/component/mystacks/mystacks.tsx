@@ -9,7 +9,7 @@ const mystacks = () => {
   return (
     <div>
    <div className="experience-time">
-        <SectionTitle text= 'My stacks' />
+        <SectionTitle text= 'Habilidades Técnicas' />
           <div className="experience-stacks">
              <Image
               src="/react.svg"
@@ -34,7 +34,7 @@ const mystacks = () => {
             />
              <div className="experience-unit">
               <div className="experience-measure measure-3">
-                <span> 1 Year </span>
+                <span> 1 ano </span>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ const mystacks = () => {
             />
              <div className="experience-unit">
               <div className="experience-measure measure-2">
-                <span> 7 months </span>
+                <span> 1 ano </span>
               </div>
             </div>
           </div>
@@ -61,8 +61,8 @@ const mystacks = () => {
               priority
             />
              <div className="experience-unit">
-              <div className="experience-measure measure-1">
-                <span> 3 Months </span>
+              <div className="experience-measure measure-2">
+                <span> 7 meses </span>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ const mystacks = () => {
             />
              <div className="experience-unit">
               <div className="experience-measure measure-3">
-                <span> 1 Year </span>
+                <span> 1 ano </span>
               </div>
             </div>
           </div>
@@ -89,8 +89,64 @@ const mystacks = () => {
               priority
             />
              <div className="experience-unit">
+              <div className="experience-measure measure-2">
+                <span> 7 meses </span>
+              </div>
+            </div>
+          </div>
+          <div className="experience-stacks">
+             <Image
+              src="/wordpress.png"
+              alt="Wordpress Logo"
+              width={35}
+              height={35}
+              priority
+            />
+             <div className="experience-unit">
               <div className="experience-measure measure-1">
-                <span> 3 months </span>
+                <span> 4 meses </span>
+              </div>
+            </div>
+          </div>
+          <div className="experience-stacks">
+             <Image
+              src="/java.png"
+              alt="Java Logo"
+              width={35}
+              height={35}
+              priority
+            />
+             <div className="experience-unit">
+              <div className="experience-measure measure-1">
+                <span> 3 meses </span>
+              </div>
+            </div>
+          </div>
+          <div className="experience-stacks">
+             <Image
+              src="/docker.png"
+              alt="Docker Logo"
+              width={35}
+              height={35}
+              priority
+            />
+             <div className="experience-unit">
+              <div className="experience-measure measure-2">
+                <span> 7 meses </span>
+              </div>
+            </div>
+          </div>
+          <div className="experience-stacks">
+             <Image
+              src="/github.png"
+              alt="Git Logo"
+              width={35}
+              height={35}
+              priority
+            />
+             <div className="experience-unit">
+              <div className="experience-measure measure-3">
+                <span> 2 anos </span>
               </div>
             </div>
           </div>
@@ -103,8 +159,8 @@ const mystacks = () => {
               priority
             />
              <div className="experience-unit">
-              <div className="experience-measure measure-2">
-                <span> 7 months </span>
+              <div className="experience-measure measure-3">
+                <span> 1 ano </span>
               </div>
             </div>
           </div>

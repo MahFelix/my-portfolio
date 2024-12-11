@@ -11,7 +11,7 @@ import Aboutme from "../AboutMe/aboutme"
 const Experience = () => {
   return (
       <div className="experience">
-        <SectionTitle text= 'Experience' />
+        <SectionTitle text= 'Experiência' />
 <p>Tenho um ano de experiência como desenvolvedor full stack, com foco especializado em front-end. Meus projetos demonstram meu compromisso em utilizar tecnologias alinhadas ao mercado.</p>
 
 <div className="btn-person">
@@ -20,7 +20,7 @@ const Experience = () => {
   </div>
   <div>
 
-    <a className="curriculo-pdf" href="/CV_Desenvolvedor_Front_End_Agnaldo_Felix.pdf" download > Curriculo
+    <a className="curriculo-pdf" href="/CV_Desenvolvedor_FullStack_Agnaldo_Felix.pdf" download > Curriculo
       <Image src={DBD} alt="Minha Imagem"
              width={25}
               height={25}
