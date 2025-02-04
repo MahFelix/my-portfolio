@@ -8,6 +8,7 @@ export function Info(){
 
   return(
        <div className="info">
+<<<<<<< HEAD
           <SectionTitle  text="Linguagens"/>
           <div className="languages-info">
             <span>
@@ -26,6 +27,8 @@ export function Info(){
               PT-BR - Native Speaker</span>
           </div>
 
+=======
+>>>>>>> 3eca9f67bcfaca430cd8bb9d03d259c59df61987
           <SectionTitle  text="Educação"/>
           <div className="educational-info">
           <span className="graduicon">🎓</span>

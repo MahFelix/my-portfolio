@@ -19,15 +19,19 @@ const Aboutme = () => {
       {showPopup && (
         <div className="popup">
           <div className="popup-content">
-            <h1> 👨‍💻Agnaldo Felix</h1>
-            <br></br>
-            <h2> Desde o ensino médio, minha paixão por programação e tecnologias tem crescido. No entanto, minha verdadeira imersão nesse campo aconteceu durante minha entrada na faculdade de Ciências da Computação em 2022. Atualmente, estou totalmente dedicado a esse mundo e minha motivação para aprender cresce a cada dia. Minha busca diária por conhecimento, o aprimoramento das minhas habilidades interpessoais e minha participação em projetos específicos têm sido constantes. Esses projetos refletem meu alinhamento com as tecnologias demandadas pelo mercado e contribuem tanto para o meu crescimento profissional quanto pessoal.
-               <br></br>
-            Meu objetivo é me tornar um programador "Full Stack" altamente qualificado para enfrentar as demandas do mercado de trabalho.
-              <br></br> <br></br>
-          Estou ansioso para discutir como poderíamos colaborar. <br></br> <br></br>Abaixo, você encontrará detalhes sobre minhas habilidades específicas e alguns projetos que realizei.</h2>
-
-
+            <h1>👨‍💻 Agnaldo Felix</h1>
+            <br />
+            <h2>
+              Minha paixão por programação e tecnologia começou no ensino médio, mas foi durante minha graduação em Ciências da Computação, iniciada em 2022, que mergulhei de cabeça nesse universo. Desde então, tenho buscado constantemente aprender, me atualizar e desenvolver projetos alinhados com as demandas do mercado.
+              <br /><br />
+              Atualmente, trabalho como desenvolvedor web na **Qintess**, onde tenho adquirido experiência prática no desenvolvimento de soluções robustas e inovadoras. Esse papel tem me permitido aplicar minhas habilidades técnicas em projetos reais e colaborar com equipes dinâmicas, contribuindo para meu crescimento profissional e pessoal.
+              <br /><br />
+              Além disso, participei de diversos projetos que exploram tecnologias modernas como React, Node.js, Tailwind e TypeScript. Esses projetos reforçaram minha capacidade de criar aplicações web rápidas, responsivas e escaláveis.
+              <br /><br />
+              Meu objetivo é me consolidar como programador "Full Stack" altamente qualificado, capaz de lidar com os desafios do mercado e contribuir para o sucesso das equipes e organizações que faço parte.
+              <br /><br />
+              Estou empolgado para compartilhar minhas experiências e discutir possíveis colaborações. Abaixo, você encontrará mais detalhes sobre minhas habilidades e projetos realizados.
+            </h2>
 
             <button className="popup-close" onClick={handleClick}>
               Fechar
