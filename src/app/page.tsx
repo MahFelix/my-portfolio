@@ -33,7 +33,7 @@ export default function Home() {
                <button
           className='btn-primary'
            >
-            Contact me!
+            Contate-me
             <EmailIcon />
           </button>
 

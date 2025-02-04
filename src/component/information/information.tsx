@@ -8,7 +8,7 @@ export function Info(){
 
   return(
        <div className="info">
-          <SectionTitle  text="Languages"/>
+          <SectionTitle  text="Linguagens"/>
           <div className="languages-info">
             <span>
             <Image src={EUA} alt="Minha Imagem"
@@ -26,11 +26,11 @@ export function Info(){
               PT-BR - Native Speaker</span>
           </div>
 
-          <SectionTitle  text="Education"/>
+          <SectionTitle  text="Educação"/>
           <div className="educational-info">
           <span className="graduicon">🎓</span>
           <span className="graduating">
-            Graduating Computer Science - Universidade Federal de Sergipe
+            Graduando Ciências da Computação - Universidade Federal de Sergipe
          </span>
           </div>
         </div>

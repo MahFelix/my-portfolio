@@ -13,7 +13,7 @@ const Aboutme = () => {
   return (
     <div>
       <button className="btn-aboutme" onClick={handleClick}>
-        About Me
+        Sobre mim
       </button>
 
       {showPopup && (

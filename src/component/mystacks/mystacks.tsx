@@ -9,7 +9,7 @@ const mystacks = () => {
   return (
     <div>
    <div className="experience-time">
-        <SectionTitle text= 'My stacks' />
+        <SectionTitle text= 'Minhas tecnologias' />
           <div className="experience-stacks">
              <Image
               src="/react.svg"
